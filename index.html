@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover Iran Gilaki Co designs on Amazon Merch. Browse featured apparel and jump to USA, UK, or Germany storefront links for each design." />
+  <meta name="keywords" content="Iran Gilaki Co, Amazon Merch, Iran shirts, Pahlavi shirt, Lion and Sun shirt, Persian apparel" />
+  <meta name="author" content="Iran Gilaki Co" />
+  <title>Iran Gilaki Co Merch</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: #121a33;
+      --panel-2: #182347;
+      --text: #f4f6fb;
+      --muted: #c9d0e3;
+      --accent: #f2c94c;
+      --accent-2: #d9a617;
+      --link: #8ab4ff;
+      --card-shadow: 0 14px 34px rgba(0, 0, 0, 0.34);
+      --border: rgba(255, 255, 255, 0.09);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top, rgba(242, 201, 76, 0.22), transparent 26%),
+        linear-gradient(180deg, #0a0f1e 0%, #111834 42%, #0b1020 100%);
+      min-height: 100vh;
+    }
+
+    a { color: var(--link); }
+
+    header {
+      padding: 4rem 1.25rem 3rem;
+      text-align: center;
+      background: linear-gradient(135deg, rgba(10,15,30,0.9) 0%, rgba(24,35,71,0.88) 55%, rgba(10,15,30,0.95) 100%);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 1rem;
+      padding: 0.45rem 0.85rem;
+      border: 1px solid rgba(242, 201, 76, 0.45);
+      border-radius: 999px;
+      color: var(--accent);
+      font-size: 0.84rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      background: rgba(242, 201, 76, 0.08);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      line-height: 1.05;
+      text-shadow: 0 4px 18px rgba(0,0,0,0.35);
+    }
+
+    .subtitle {
+      max-width: 760px;
+      margin: 1rem auto 0;
+      color: var(--muted);
+      font-size: 1.04rem;
+      line-height: 1.7;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 0.8rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 1.5rem;
+    }
+
+    .hero-actions a {
+      text-decoration: none;
+      font-weight: 700;
+      border-radius: 999px;
+      padding: 0.9rem 1.25rem;
+      transition: transform 0.15s ease, opacity 0.15s ease, background 0.15s ease;
+    }
+
+    .btn-primary {
+      background: linear-gradient(180deg, var(--accent), var(--accent-2));
+      color: #1b1607;
+      box-shadow: 0 10px 24px rgba(217, 166, 23, 0.25);
+    }
+
+    .btn-secondary {
+      background: rgba(255,255,255,0.06);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .hero-actions a:hover,
+    .hero-actions a:focus-visible,
+    .country-links a:hover,
+    .country-links a:focus-visible,
+    .card > a:hover,
+    .card > a:focus-visible {
+      transform: translateY(-2px);
+      opacity: 0.96;
+    }
+
+    main {
+      width: min(1200px, calc(100% - 1.5rem));
+      margin: 0 auto;
+      padding: 2rem 0 4rem;
+    }
+
+    .note {
+      margin: 0 auto 1.5rem;
+      padding: 1rem 1rem;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: 0.95rem;
+    }
+
+    .section-title {
+      margin: 2rem 0 0.35rem;
+      font-size: 1.7rem;
+    }
+
+    .section-copy {
+      margin: 0 0 1.5rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .featured {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.2rem;
+      margin-bottom: 2.2rem;
+    }
+
+    .featured-card {
+      background: linear-gradient(180deg, rgba(24,35,71,0.92), rgba(18,26,51,0.95));
+      border: 1px solid rgba(242, 201, 76, 0.28);
+      border-radius: 24px;
+      padding: 1.15rem;
+      box-shadow: var(--card-shadow);
+      overflow: hidden;
+    }
+
+    .featured-badge {
+      display: inline-block;
+      margin-bottom: 0.9rem;
+      background: rgba(242, 201, 76, 0.13);
+      color: var(--accent);
+      border: 1px solid rgba(242, 201, 76, 0.4);
+      border-radius: 999px;
+      padding: 0.45rem 0.8rem;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+    }
+
+    .featured-wrap {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    .featured-card img {
+      width: 100%;
+      max-width: 340px;
+      display: block;
+      margin: 0 auto;
+      border-radius: 18px;
+      background: #fff;
+    }
+
+    .featured-card h2 {
+      margin: 0.3rem 0 0.65rem;
+      font-size: clamp(1.55rem, 3.2vw, 2.3rem);
+      line-height: 1.2;
+    }
+
+    .featured-card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .featured-links,
+    .country-links {
+      display: flex;
+      gap: 0.55rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .featured-links { margin-top: 1rem; }
+
+    .featured-links a,
+    .country-links a {
+      text-decoration: none;
+      border-radius: 999px;
+      font-weight: 700;
+      transition: transform 0.15s ease, background 0.15s ease, opacity 0.15s ease;
+    }
+
+    .featured-links a {
+      padding: 0.75rem 1rem;
+      background: rgba(255,255,255,0.08);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .featured-links a.primary { background: linear-gradient(180deg, var(--accent), var(--accent-2)); color: #1b1607; border: none; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: linear-gradient(180deg, rgba(18,26,51,0.95), rgba(16,22,42,0.98));
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 0.85rem;
+      box-shadow: var(--card-shadow);
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+    }
+
+    .card > a {
+      color: inherit;
+      text-decoration: none;
+      display: block;
+    }
+
+    .card img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: contain;
+      background: #fff;
+      border-radius: 14px;
+      padding: 0.4rem;
+      margin-bottom: 0.85rem;
+    }
+
+    .card h3 {
+      font-size: 1rem;
+      line-height: 1.4;
+      margin: 0 0 0.55rem;
+      min-height: 4.2em;
+    }
+
+    .card p {
+      margin: 0 0 0.8rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.55;
+    }
+
+    .country-links {
+      margin-top: auto;
+      padding-top: 0.35rem;
+    }
+
+    .country-links span {
+      width: 100%;
+      color: var(--muted);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .country-links a {
+      padding: 0.42rem 0.7rem;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-size: 0.84rem;
+    }
+
+    .country-links a.primary {
+      background: rgba(242, 201, 76, 0.18);
+      color: #ffe49a;
+      border-color: rgba(242, 201, 76, 0.35);
+    }
+
+    .footnote {
+      margin-top: 2rem;
+      color: var(--muted);
+      font-size: 0.92rem;
+      line-height: 1.65;
+      padding: 1rem;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      background: rgba(255,255,255,0.04);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.75rem 1rem 2.5rem;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    @media (min-width: 720px) {
+      header { padding: 5rem 1.5rem 3.5rem; }
+      .featured-wrap {
+        grid-template-columns: minmax(260px, 340px) 1fr;
+        gap: 1.4rem;
+      }
+      .featured-card { padding: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">Amazon Merch Collection</div>
+    <h1>Iran Gilaki Co</h1>
+    <p class="subtitle">
+      Explore a curated collection of Iran Gilaki Co Amazon Merch designs. Tap any thumbnail to open the USA listing,
+      or use the quick marketplace links below each design to jump to Amazon USA, UK, or Germany.
+    </p>
+    <div class="hero-actions">
+      <a class="btn-primary" href="#collection">Browse the collection</a>
+      <a class="btn-secondary" href="https://www.amazon.com/Clothing-Shoes-Jewelry-Iran-Gilaki-Co/s?rh=n%3A7141123011%2Cp_4%3AIran%2BGilaki%2BCo" target="_blank" rel="noopener noreferrer">View the brand on Amazon USA</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="note">
+      <strong>How marketplace links work:</strong> clicking the product image or title opens the USA listing. The country links underneath let visitors open that design in <strong>USA</strong>, <strong>UK</strong>, or <strong>DE</strong>. Where an exact UK or DE product page was not confirmed yet, the page now uses placeholder buttons labeled <strong>UKPL</strong> or <strong>DEPL</strong> so you can swap in the final marketplace URLs manually.
+    </div>
+
+    <section class="featured" aria-label="Featured design">
+      <article class="featured-card">
+        <div class="featured-badge">Featured Design</div>
+        <div class="featured-wrap">
+          <a href="https://www.amazon.com/Pahlavi-kings-of-Iran-T-Shirt/dp/B091F8ZMPD" target="_blank" rel="noopener noreferrer" aria-label="Open featured design in Amazon USA">
+            <img src="https://m.media-amazon.com/images/I/61-7Qb1swgL._AC_UL320_.jpg" alt="Pahlavi Kings of Iran T-Shirt" loading="eager" />
+          </a>
+          <div>
+            <h2><a href="https://www.amazon.com/Pahlavi-kings-of-Iran-T-Shirt/dp/B091F8ZMPD" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Pahlavi Kings of Iran T-Shirt</a></h2>
+            <p>
+              One of the strongest-performing visible designs from the brand search, and a strong anchor item for the page.
+              Use the quick links below to send visitors to the best matching marketplace.
+            </p>
+            <div class="featured-links">
+              <a class="primary" href="https://www.amazon.com/Pahlavi-kings-of-Iran-T-Shirt/dp/B091F8ZMPD" target="_blank" rel="noopener noreferrer">USA</a>
+              <a href="https://www.amazon.co.uk/Pahlavi-kings-of-Iran-T-Shirt/dp/B091F4HBBK" target="_blank" rel="noopener noreferrer">UK</a>
+              <a href="DE_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">DEPL</a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="collection" aria-labelledby="collection-title">
+      <h2 class="section-title" id="collection-title">Featured Collection</h2>
+      <p class="section-copy">
+        Mobile-first layout, direct Amazon linking, and fast country switching for shoppers in the United States, United Kingdom, and Germany.
+      </p>
+
+      <div class="grid">
+        <article class="card">
+          <a href="https://www.amazon.com/Imperial-Coat-Iran-Pahlavi-T-Shirt/dp/B0BQPH731V" target="_blank" rel="noopener noreferrer">
+            <img src="https://m.media-amazon.com/images/I/71Diqm3uYkL._AC_UL320_.jpg" alt="Imperial Coat of Arms of Iran Pahlavi Dynasty T-Shirt" loading="lazy" />
+            <h3>Imperial Coat of Arms of Iran Pahlavi Dynasty T-Shirt</h3>
+            <p>A bold heraldic design that gives the page a premium, recognizable visual centerpiece.</p>
+          </a>
+          <div class="country-links"><span>Open on Amazon:</span><a class="primary" href="https://www.amazon.com/Imperial-Coat-Iran-Pahlavi-T-Shirt/dp/B0BQPH731V" target="_blank" rel="noopener noreferrer">USA</a><a href="https://www.amazon.co.uk/Iranian-Imperial-Iran-Pahlavi-Dynasty/dp/B0BJJ33DPX" target="_blank" rel="noopener noreferrer">UK</a><a href="DE_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">DEPL</a></div>
+        </article>
+
+        <article class="card">
+          <a href="https://www.amazon.com/Iran-flag-Pahlavi-golden-T-Shirt/dp/B0BNTQ6G9R" target="_blank" rel="noopener noreferrer">
+            <img src="https://m.media-amazon.com/images/I/71kHMzR5MtL._AC_UL320_.jpg" alt="Iran flag lion head with a Pahlavi golden lion T-Shirt" loading="lazy" />
+            <h3>Iran Flag Lion Head with a Pahlavi Golden Lion T-Shirt</h3>
+            <p>Strong graphic treatment for visitors who want a direct lion-and-flag visual motif.</p>
+          </a>
+          <div class="country-links"><span>Open on Amazon:</span><a class="primary" href="https://www.amazon.com/Iran-flag-Pahlavi-golden-T-Shirt/dp/B0BNTQ6G9R" target="_blank" rel="noopener noreferrer">USA</a><a href="UK_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">UKPL</a><a href="DE_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">DEPL</a></div>
+        </article>
+
+        <article class="card">
+          <a href="https://www.amazon.com/Irans-flag-golden-Pahlavi-T-Shirt/dp/B0BKCS2GRN" target="_blank" rel="noopener noreferrer">
+            <img src="https://m.media-amazon.com/images/I/714okUaXbmL._AC_UL320_.jpg" alt="Iran's flag with a golden lion and sun with king Pahlavi T-Shirt" loading="lazy" />
+            <h3>Iran's Flag with a Golden Lion and Sun with King Pahlavi T-Shirt</h3>
+            <p>A more detailed statement design for shoppers looking for layered symbolism.</p>
+          </a>
+          <div class="country-links"><span>Open on Amazon:</span><a class="primary" href="https://www.amazon.com/Irans-flag-golden-Pahlavi-T-Shirt/dp/B0BKCS2GRN" target="_blank" rel="noopener noreferrer">USA</a><a href="https://www.amazon.co.uk/Womens-golden-Pahlavi-V-Neck-T-Shirt/dp/B0BKF12H1M" target="_blank" rel="noopener noreferrer">UK</a><a href="DE_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">DEPL</a></div>
+        </article>
+
+        <article class="card">
+          <a href="https://www.amazon.com/Iran-Gilaki-Co-Pahlavi-T-Shirt/dp/B0F42D3LCG" target="_blank" rel="noopener noreferrer">
+            <img src="https://m.media-amazon.com/images/I/71DHDgWlQFL._AC_UL320_.jpg" alt="King Reza Pahlavi T-Shirt" loading="lazy" />
+            <h3>King Reza Pahlavi T-Shirt</h3>
+            <p>A leader-focused design that adds clear variety beyond purely symbolic graphics.</p>
+          </a>
+          <div class="country-links"><span>Open on Amazon:</span><a class="primary" href="https://www.amazon.com/Iran-Gilaki-Co-Pahlavi-T-Shirt/dp/B0F42D3LCG" target="_blank" rel="noopener noreferrer">USA</a><a href="https://www.amazon.co.uk/Iran-Gilaki-Co-Pahlavi-T-Shirt/dp/B0F18MC32D" target="_blank" rel="noopener noreferrer">UK</a><a href="DE_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">DEPL</a></div>
+        </article>
+
+        <article class="card">
+          <a href="https://www.amazon.com/Iran-flag-golden-lion-T-Shirt/dp/B0BDDM834Y" target="_blank" rel="noopener noreferrer">
+            <img src="https://m.media-amazon.com/images/I/615A21OUqrL._AC_UL320_.jpg" alt="Iran flag with a golden lion T-Shirt" loading="lazy" />
+            <h3>Iran Flag with a Golden Lion T-Shirt</h3>
+            <p>A streamlined lion design suited for buyers who prefer a cleaner front graphic.</p>
+          </a>
+          <div class="country-links"><span>Open on Amazon:</span><a class="primary" href="https://www.amazon.com/Iran-flag-golden-lion-T-Shirt/dp/B0BDDM834Y" target="_blank" rel="noopener noreferrer">USA</a><a href="UK_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">UKPL</a><a href="DE_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">DEPL</a></div>
+        </article>
+
+        <article class="card">
+          <a href="https://www.amazon.com/Iranian-Imperial-Iran-Pahlavi-Dynasty/dp/B0BN34Q7Z1" target="_blank" rel="noopener noreferrer">
+            <img src="https://m.media-amazon.com/images/I/71wC5JHQl0L._AC_UL320_.jpg" alt="Iranian Imperial Coat of Arms of Iran Pahlavi Dynasty T-Shirt" loading="lazy" />
+            <h3>Iranian Imperial Coat of Arms of Iran Pahlavi Dynasty T-Shirt</h3>
+            <p>An alternate crest-focused option that helps reinforce the brand's imperial line.</p>
+          </a>
+          <div class="country-links"><span>Open on Amazon:</span><a class="primary" href="https://www.amazon.com/Iranian-Imperial-Iran-Pahlavi-Dynasty/dp/B0BN34Q7Z1" target="_blank" rel="noopener noreferrer">USA</a><a href="https://www.amazon.co.uk/Iranian-Imperial-Iran-Pahlavi-Dynasty/dp/B0BJJ33DPX" target="_blank" rel="noopener noreferrer">UK</a><a href="DE_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">DEPL</a></div>
+        </article>
+
+        <article class="card">
+          <a href="https://www.amazon.com/Pahlavi-kings-Iran-Sleeve-T-Shirt/dp/B091CHMY31" target="_blank" rel="noopener noreferrer">
+            <img src="https://m.media-amazon.com/images/I/71UXzFwhHnL._AC_UL320_.jpg" alt="Pahlavi kings of Iran Long Sleeve T-Shirt" loading="lazy" />
+            <h3>Pahlavi Kings of Iran Long Sleeve T-Shirt</h3>
+            <p>Useful category variety for visitors who want a non-standard tee format.</p>
+          </a>
+          <div class="country-links"><span>Open on Amazon:</span><a class="primary" href="https://www.amazon.com/Pahlavi-kings-Iran-Sleeve-T-Shirt/dp/B091CHMY31" target="_blank" rel="noopener noreferrer">USA</a><a href="UK_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">UKPL</a><a href="DE_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">DEPL</a></div>
+        </article>
+
+        <article class="card">
+          <a href="https://www.amazon.com/Iran-Pahlavi-Dynasty-Khorshid-Pullover/dp/B0CDT5VDZV" target="_blank" rel="noopener noreferrer">
+            <img src="https://m.media-amazon.com/images/I/71SrvnNRZbL._AC_UL320_.jpg" alt="Iran Lion and Sun Pahlavi Dynasty Shir o Khorshid Pullover Hoodie" loading="lazy" />
+            <h3>Iran Lion and Sun Pahlavi Dynasty Shir o Khorshid Pullover Hoodie</h3>
+            <p>A hoodie option that broadens the collection beyond T-shirts for colder climates.</p>
+          </a>
+          <div class="country-links"><span>Open on Amazon:</span><a class="primary" href="https://www.amazon.com/Iran-Pahlavi-Dynasty-Khorshid-Pullover/dp/B0CDT5VDZV" target="_blank" rel="noopener noreferrer">USA</a><a href="UK_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">UKPL</a><a href="DE_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">DEPL</a></div>
+        </article>
+
+        <article class="card">
+          <a href="https://www.amazon.com/Crown-Prince-Pahlavi-SHAHYAD-T-Shirt/dp/B0CJ9TNCT2" target="_blank" rel="noopener noreferrer">
+            <img src="https://m.media-amazon.com/images/I/71trQJxXyXL._AC_UL320_.jpg" alt="Crown Prince Reza Pahlavi with SHAHYAD TOWER T-Shirt" loading="lazy" />
+            <h3>Crown Prince Reza Pahlavi with SHAHYAD Tower T-Shirt</h3>
+            <p>Adds landmark and figure recognition for visitors drawn to historical iconography.</p>
+          </a>
+          <div class="country-links"><span>Open on Amazon:</span><a class="primary" href="https://www.amazon.com/Crown-Prince-Pahlavi-SHAHYAD-T-Shirt/dp/B0CJ9TNCT2" target="_blank" rel="noopener noreferrer">USA</a><a href="https://www.amazon.co.uk/Crown-Prince-Pahlavi-SHAHYAD-T-Shirt/dp/B0CJ9TJ5YJ" target="_blank" rel="noopener noreferrer">UK</a><a href="DE_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">DEPL</a></div>
+        </article>
+
+        <article class="card">
+          <a href="https://www.amazon.com/Womens-Iran-Persian-Pahlavi-T-Shirt/dp/B0GFY1NMJG" target="_blank" rel="noopener noreferrer">
+            <img src="https://m.media-amazon.com/images/I/61EXSU7bW4L._AC_UL320_.jpg" alt="Women's Iran Map Lion and Sun Persian Pahlavi Flag V-Neck T-Shirt" loading="lazy" />
+            <h3>Women's Iran Map Lion and Sun Persian Pahlavi Flag V-Neck T-Shirt</h3>
+            <p>A women-focused cut with a map-based graphic that adds assortment depth.</p>
+          </a>
+          <div class="country-links"><span>Open on Amazon:</span><a class="primary" href="https://www.amazon.com/Womens-Iran-Persian-Pahlavi-T-Shirt/dp/B0GFY1NMJG" target="_blank" rel="noopener noreferrer">USA</a><a href="UK_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">UKPL</a><a href="https://www.amazon.de/-/en/Womens-Persian-Pahlavi-V-Neck-T-Shirt/dp/B0GFXKJFN3" target="_blank" rel="noopener noreferrer">DE</a></div>
+        </article>
+
+        <article class="card">
+          <a href="https://www.amazon.com/Iran-Pahlavi-Dynasty-Khorshid-T-Shirt/dp/B0CDT71FSC" target="_blank" rel="noopener noreferrer">
+            <img src="https://m.media-amazon.com/images/I/715UNOVby5L._AC_UL320_.jpg" alt="Iran Lion and Sun Pahlavi Dynasty Shir o Khorshid T-Shirt" loading="lazy" />
+            <h3>Iran Lion and Sun Pahlavi Dynasty Shir o Khorshid T-Shirt</h3>
+            <p>A core lion-and-sun design that works well as an evergreen staple on the page.</p>
+          </a>
+          <div class="country-links"><span>Open on Amazon:</span><a class="primary" href="https://www.amazon.com/Iran-Pahlavi-Dynasty-Khorshid-T-Shirt/dp/B0CDT71FSC" target="_blank" rel="noopener noreferrer">USA</a><a href="https://www.amazon.co.uk/Iran-Pahlavi-Dynasty-Khorshid-T-Shirt/dp/B0CDT7NRH7" target="_blank" rel="noopener noreferrer">UK</a><a href="DE_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">DEPL</a></div>
+        </article>
+
+        <article class="card">
+          <a href="https://www.amazon.com/Iran-Pahlavi-Dynasty-Khorshid-T-Shirt/dp/B0CDT64K7Y" target="_blank" rel="noopener noreferrer">
+            <img src="https://m.media-amazon.com/images/I/713LYEk25rL._AC_UL320_.jpg" alt="Womens Iran Lion and Sun Pahlavi Dynasty Shir o Khorshid V-Neck T-Shirt" loading="lazy" />
+            <h3>Women's Iran Lion and Sun Pahlavi Dynasty Shir o Khorshid V-Neck T-Shirt</h3>
+            <p>A women’s V-neck variant to keep the storefront useful across multiple apparel cuts.</p>
+          </a>
+          <div class="country-links"><span>Open on Amazon:</span><a class="primary" href="https://www.amazon.com/Iran-Pahlavi-Dynasty-Khorshid-T-Shirt/dp/B0CDT64K7Y" target="_blank" rel="noopener noreferrer">USA</a><a href="UK_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">UKPL</a><a href="DE_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">DEPL</a></div>
+        </article>
+
+        <article class="card">
+          <a href="https://www.amazon.com/Irans-flag-golden-lion-T-Shirt/dp/B0BNL1BHN4" target="_blank" rel="noopener noreferrer">
+            <img src="https://m.media-amazon.com/images/I/71RiLOel4xL._AC_UL320_.jpg" alt="Iran's flag with a golden lion and sun T-Shirt" loading="lazy" />
+            <h3>Iran's Flag with a Golden Lion and Sun T-Shirt</h3>
+            <p>A simplified flag treatment that complements the more detailed, figure-based designs.</p>
+          </a>
+          <div class="country-links"><span>Open on Amazon:</span><a class="primary" href="https://www.amazon.com/Irans-flag-golden-lion-T-Shirt/dp/B0BNL1BHN4" target="_blank" rel="noopener noreferrer">USA</a><a href="UK_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">UKPL</a><a href="DE_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">DEPL</a></div>
+        </article>
+
+        <article class="card">
+          <a href="https://www.amazon.com/Iran-Gilaki-Co-Pahlavi-T-Shirt/dp/B09JRP5CYT" target="_blank" rel="noopener noreferrer">
+            <img src="https://m.media-amazon.com/images/I/61+gbv8YxPL._AC_UL320_.jpg" alt="Queen Farah Pahlavi T-Shirt" loading="lazy" />
+            <h3>Queen Farah Pahlavi T-Shirt</h3>
+            <p>Adds royal-family variety and rounds out the collection with another recognizable figure.</p>
+          </a>
+          <div class="country-links"><span>Open on Amazon:</span><a class="primary" href="https://www.amazon.com/Iran-Gilaki-Co-Pahlavi-T-Shirt/dp/B09JRP5CYT" target="_blank" rel="noopener noreferrer">USA</a><a href="UK_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">UKPL</a><a href="DE_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">DEPL</a></div>
+        </article>
+
+        <article class="card">
+          <a href="https://www.amazon.com/Iran-Gilaki-Co-Pahlavi-T-Shirt/dp/B098HVTQGC" target="_blank" rel="noopener noreferrer">
+            <img src="https://m.media-amazon.com/images/I/71aV0j6vYUL._AC_UL320_.jpg" alt="Reza Shaha Pahlavi T-Shirt" loading="lazy" />
+            <h3>Reza Shaha Pahlavi T-Shirt</h3>
+            <p>A final leader-centered design that completes the 16-item storefront selection.</p>
+          </a>
+          <div class="country-links"><span>Open on Amazon:</span><a class="primary" href="https://www.amazon.com/Iran-Gilaki-Co-Pahlavi-T-Shirt/dp/B098HVTQGC" target="_blank" rel="noopener noreferrer">USA</a><a href="UK_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">UKPL</a><a href="DE_PLACEHOLDER_LINK" target="_blank" rel="noopener noreferrer">DEPL</a></div>
+        </article>
+      </div>
+    </section>
+
+    <div class="footnote">
+      <strong>Note:</strong> Germany is labeled <strong>DE</strong>, which is the standard marketplace abbreviation. Placeholder buttons use <strong>UKPL</strong> and <strong>DEPL</strong> labels so you can quickly find and replace unfinished country links inside the HTML.
+    </div>
+  </main>
+
+  <footer>
+    <p>© Iran Gilaki Co — curated Amazon Merch collection.</p>
+  </footer>
+</body>
+</html>
